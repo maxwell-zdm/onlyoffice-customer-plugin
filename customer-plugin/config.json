@@ -1,0 +1,34 @@
+{
+  "name": "Customer Folder Plugin",
+  "nameLocale": {
+    "zh": "客户文件夹插件",
+    "en": "Customer Folder Plugin"
+  },
+  "guid": "asc.{C9A0B42E-6F5D-4F18-9D56-4F2D8E96C001}",
+  "version": "0.1.0",
+  "minVersion": "7.0.0",
+  "variations": [
+    {
+      "description": "Test plugin for customer folder workflow.",
+      "descriptionLocale": {
+        "zh": "用于测试客户文件夹工作流的 ONLYOFFICE 插件。",
+        "en": "Test plugin for customer folder workflow."
+      },
+      "url": "index.html",
+      "icons": [
+        "resources/icon.png",
+        "resources/icon@2x.png"
+      ],
+      "isViewer": false,
+      "EditorsSupport": [
+        "cell"
+      ],
+      "isVisual": true,
+      "isModal": false,
+      "isInsideMode": true,
+      "initDataType": "none",
+      "initData": "",
+      "buttons": []
+    }
+  ]
+}

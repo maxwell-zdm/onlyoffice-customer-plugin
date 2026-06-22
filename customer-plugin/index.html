@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Customer Folder Plugin</title>
+  <script src="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins.js"></script>
+  <script src="https://onlyoffice.github.io/sdkjs-plugins/v1/plugins-ui.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>客户文件夹插件</h1>
+    <p class="muted">如果你能看到这个面板，说明 ONLYOFFICE 已成功加载 GitHub Pages 插件。</p>
+
+    <div class="card">
+      <div class="label">插件状态</div>
+      <div id="status">正在初始化...</div>
+    </div>
+
+    <div class="card">
+      <div class="label">测试操作</div>
+      <button id="btnWrite">写入测试文字到当前单元格</button>
+      <button id="btnFetch">测试 fetch</button>
+    </div>
+
+    <div class="card">
+      <div class="label">输出</div>
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+  <script src="plugin.js"></script>
+</body>
+</html>

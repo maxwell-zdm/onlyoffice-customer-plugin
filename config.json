@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    {
+      "name": "Customer Folder Plugin",
+      "guid": "asc.{C9A0B42E-6F5D-4F18-9D56-4F2D8E96C001}",
+      "version": "0.1.0",
+      "baseUrl": "customer-plugin/",
+      "config": "customer-plugin/config.json"
+    }
+  ]
+}
